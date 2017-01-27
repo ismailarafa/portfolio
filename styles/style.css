@@ -1,0 +1,284 @@
+h1 {
+  font-family: "courier new";
+  font-size: 220%;
+  text-align: center;
+  color: #4169E1;
+  margin: 20px 40px 20px 27px;
+}
+
+* {
+  background-color: lavender;
+}
+
+p img.nth-child(2,3) {
+  width: 110px;
+  height: 80px;
+}
+
+h1 span {
+  font-style: italic;
+  color: #800000;
+  font-size: 90%;
+
+}
+
+div.first-child {
+  text-align: center;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #4169E1;
+}
+
+#cat {
+  text-align: center;
+  margin: 30px 0 40px 205px;
+}
+
+#drake1 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 90px 0 0 0;
+}
+
+#drake2 {
+  float: right;
+  width: 200px;
+  height: 200px;
+  margin: 90px 0 0 0;
+}
+
+div.nth-child(2) {
+  width: 800px;
+  height: 240px;
+  margin: 50px auto;
+  padding: 70px;
+  background-color: #DCDCDC;
+}
+
+blockquote {
+  font-family: "courier new";
+  font-size: 20px;
+  margin: -50px 0 0 300px;
+  background-color: #DCDCDC;
+}
+
+strong {
+  color: #6495ED;
+  text-decoration: none;
+}
+
+#camel {
+  text-decoration: none;
+  color: #6495ED;
+  background-color: #DCDCDC;
+}
+#cheese {
+  text-decoration: none;
+  color: #4169E1;
+  background-color: #DCDCDC;
+}
+
+#economy {
+  text-decoration: none;
+  color: #4169E1;
+  background-color: #DCDCDC;
+}
+
+#young-thug {
+  text-decoration: none;
+  color: #4169E1;
+  background-color: #DCDCDC;
+}
+
+#ismail {
+  color: #6495ED;
+  background-color: #DCDCDC;
+}
+
+#dank {
+  text-decoration: none;
+  color: #6495ED;
+  font-style: italic;
+  background-color: #DCDCDC;
+}
+
+#spotify {
+  text-decoration: none;
+  color: #4169E1;
+  background-color: #DCDCDC;
+}
+
+#i {
+  float: left;
+  width: 250px;
+  height: 300px;
+  margin: -320px 0 20px -10px;
+}
+
+#bio {
+  background-color: #DCDCDC;
+  width: 780px;
+  margin: 50px auto;
+  padding: 60px;
+  height: 250px;
+}
+
+blockquote strong {
+  background-color: #DCDCDC;
+}
+
+ul {
+  text-align: center;
+}
+
+.disco-camels {
+  margin: 0 0 0 23px;
+}
+
+.disco-camels2 {
+  margin: 0 0 0 -44px;
+}
+
+.disco-camels > img {
+  width: 64px;
+  height: 60px;
+}
+
+.disco-camels2 > img {
+  width: 64px;
+  height: 60px;
+}
+
+h2 {
+  font-family: "courier new";
+  font-size: 300%;
+  color: #4169E1;
+  text-align: center;
+  margin: 50px 0 30px 0;
+}
+
+#drizz {
+  text-decoration: none;
+  color: #4169E1;
+}
+
+#twenty {
+  text-decoration: none;
+  color: #4169E1;
+}
+
+#first-row {
+  margin: 0 0 0 32px;
+}
+
+#brown {
+  margin: 40px 0 0 25px;
+}
+
+#grips {
+  width: 35%;
+  height: 230px;
+}
+
+#gucci {
+  height: 230px;
+  width: 350px;
+}
+
+#second-row {
+  margin: 0 0 0 57px;
+}
+
+#q {
+  height: 220px;
+  width: 30%
+}
+
+#corey {
+  height: 220px;
+  width: 431px;
+}
+
+#kimye {
+  width: 350px;
+  height: 220px;
+}
+
+.white {
+  margin: 120px 0 0 0;
+}
+
+li {
+  font-family: "courier new";
+  font-size: 28px;
+  color: #6495ED;
+}
+
+.lines {
+  margin: 200px 0 0 0;
+}
+
+.lthree {
+  margin: 300px 0 0 0;
+}
+
+.space {
+  margin: 400px 0 0 0;
+}
+
+#shabba {
+  width: 70%;
+  margin: 0 0 0 200px;
+}
+
+ul.nth-child(2) {
+  text-align: center;
+}
+
+ul.nth-child(2) > li {
+  font-family: "courier new";
+  font-size: 36px;
+  color: #6495ED;
+}
+
+#pizza {
+  margin: 300px 0 0 0;
+  text-decoration: none;
+}
+
+#whitespace {
+  margin: 300px 0 0 0;
+}
+
+.beautiful {
+  margin: 300px 0 0 0;
+}
+
+.footer {
+  font-family: "courier new";
+  font-size: 95%;
+  text-align: right;
+  color: #808080;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 25px;
+  width: 100%;
+}
+
+.links {
+  float: left;
+}
+
+.links > a {
+  text-decoration: none;
+  color: #808080;
+}
+
+.footer > a {
+  text-decoration: none;
+  color: #808080;
+}
