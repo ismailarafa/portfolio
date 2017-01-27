@@ -1,13 +1,11 @@
 h1 {
-  font-family: "courier new";
   font-size: 220%;
-  text-align: center;
-  color: #4169E1;
   margin: 20px 40px 20px 27px;
 }
 
 * {
   background-color: lavender;
+  font-family: "courier new";
 }
 
 p img.nth-child(2,3) {
@@ -16,158 +14,101 @@ p img.nth-child(2,3) {
 }
 
 h1 span {
-  font-style: italic;
   color: #800000;
   font-size: 90%;
 
 }
 
-div.first-child {
+div.first-child, ul, h1, #cat, h2 {
   text-align: center;
-}
-
-h1 a {
-  text-decoration: none;
-  color: #4169E1;
 }
 
 #cat {
-  text-align: center;
-  margin: 30px 0 40px 205px;
+  margin: 30px 0 40px 213px;
+  border-radius: 10px 10px 15px 15px;
+  width: 440px;
+  border: 0.8px dotted green;
 }
 
-#drake1 {
-  float: left;
+#drake1, #drake2 {
   width: 200px;
   height: 200px;
   margin: 90px 0 0 0;
+  border: 0.4px dashed grey;
+  border-radius: 13px 7px 13px 7px;
 }
 
-#drake2 {
+#drake2  {
   float: right;
-  width: 200px;
-  height: 200px;
-  margin: 90px 0 0 0;
 }
 
 div.nth-child(2) {
   width: 800px;
   height: 240px;
-  margin: 50px auto;
   padding: 70px;
-  background-color: #DCDCDC;
 }
 
 blockquote {
-  font-family: "courier new";
   font-size: 20px;
   margin: -50px 0 0 300px;
-  background-color: #DCDCDC;
 }
 
-strong {
+p, #camel, #dank, ul, li > a {
   color: #6495ED;
+}
+
+#camel, #dank, #cheese, #economy, #young-thug, #spotify, p, h1 a, #pizza, #drizz, #twenty, .nav > a, .links > a {
   text-decoration: none;
 }
 
-#camel {
-  text-decoration: none;
-  color: #6495ED;
-  background-color: #DCDCDC;
-}
-#cheese {
-  text-decoration: none;
+#cheese, #economy, #young-thug, #spotify, h1 a, h1, #drizz, #twenty, h2 {
   color: #4169E1;
-  background-color: #DCDCDC;
 }
 
-#economy {
-  text-decoration: none;
-  color: #4169E1;
-  background-color: #DCDCDC;
-}
-
-#young-thug {
-  text-decoration: none;
-  color: #4169E1;
-  background-color: #DCDCDC;
-}
-
-#ismail {
-  color: #6495ED;
-  background-color: #DCDCDC;
-}
-
-#dank {
-  text-decoration: none;
-  color: #6495ED;
+#dank, h1 span {
   font-style: italic;
-  background-color: #DCDCDC;
-}
-
-#spotify {
-  text-decoration: none;
-  color: #4169E1;
-  background-color: #DCDCDC;
 }
 
 #i {
-  float: left;
   width: 250px;
   height: 300px;
   margin: -320px 0 20px -10px;
+  border-radius: 20px 25px 30px 40px;
+  border: 1px solid navy;
 }
 
 #bio {
-  background-color: #DCDCDC;
   width: 780px;
-  margin: 50px auto;
   padding: 60px;
   height: 250px;
+  border: 0.8px solid purple;
+  border-radius: 75px 80px 80px 75px;
 }
 
-blockquote strong {
+#bio, div {
+  margin: 50px auto;
+}
+
+blockquote strong, #bio, #camel, #cheese, #economy, #young-thug, #ismail, #dank, #spotify, blockquote, blockquote p  {
   background-color: #DCDCDC;
 }
 
-ul {
-  text-align: center;
-}
-
-.disco-camels {
+.disco-camels, .disco-camels2 {
   margin: 0 0 0 23px;
-}
-
-.disco-camels2 {
-  margin: 0 0 0 -44px;
-}
-
-.disco-camels > img {
-  width: 64px;
+  border: 1px solid violet;
+  width: 1216px;
   height: 60px;
+  border-radius: 3px 3px 3px 3px;
 }
 
-.disco-camels2 > img {
+.disco-camels > img, .disco-camels2 > img {
   width: 64px;
   height: 60px;
 }
 
 h2 {
-  font-family: "courier new";
   font-size: 300%;
-  color: #4169E1;
-  text-align: center;
   margin: 50px 0 30px 0;
-}
-
-#drizz {
-  text-decoration: none;
-  color: #4169E1;
-}
-
-#twenty {
-  text-decoration: none;
-  color: #4169E1;
 }
 
 #first-row {
@@ -178,32 +119,42 @@ h2 {
   margin: 40px 0 0 25px;
 }
 
-#grips {
-  width: 35%;
-  height: 230px;
+#brown, #gucci {
+    border-radius: 10px 10px 15px 15px;
+    border: 0.7px solid teal;
 }
 
-#gucci {
+#grips {
+  width: 35%;
+  border-radius: 15px 15px 20px 20px;
+  border: 0.9px dashed indigo;
+}
+
+#gucci, #grips {
   height: 230px;
-  width: 350px;
 }
 
 #second-row {
   margin: 0 0 0 57px;
 }
 
-#q {
-  height: 220px;
-  width: 30%
+#q, #kimye {
+  width: 30%;
+  border-radius: 15px 15px 10px 10px;
+  border: 1.4px solid maroon;
 }
 
 #corey {
-  height: 220px;
   width: 431px;
+  border-radius: 20px 20px 15px 15px;
+  border: 1.4px dotted orange;
 }
 
-#kimye {
+#kimye, #gucci {
   width: 350px;
+}
+
+#corey, #kimye, #q {
   height: 220px;
 }
 
@@ -212,73 +163,46 @@ h2 {
 }
 
 li {
-  font-family: "courier new";
   font-size: 28px;
-  color: #6495ED;
 }
 
 .lines {
   margin: 200px 0 0 0;
 }
 
-.lthree {
-  margin: 300px 0 0 0;
-}
-
-.space {
+.space, .beautiful {
   margin: 400px 0 0 0;
 }
 
 #shabba {
   width: 70%;
   margin: 0 0 0 200px;
+  border: 0.8px solid blue;
+  border-radius: 110px 110px 80px 80px;
 }
 
-ul.nth-child(2) {
-  text-align: center;
-}
-
-ul.nth-child(2) > li {
-  font-family: "courier new";
-  font-size: 36px;
-  color: #6495ED;
-}
-
-#pizza {
-  margin: 300px 0 0 0;
-  text-decoration: none;
-}
-
-#whitespace {
+#pizza, #whitespace, .lthree {
   margin: 300px 0 0 0;
 }
 
-.beautiful {
-  margin: 300px 0 0 0;
-}
-
-.footer {
-  font-family: "courier new";
+footer {
   font-size: 95%;
   text-align: right;
-  color: #808080;
   position: fixed;
   left: 0px;
   bottom: 0px;
-  height: 25px;
+  height: 23px;
   width: 100%;
 }
 
-.links {
+.nav, #i, #drake1 {
   float: left;
 }
 
-.links > a {
-  text-decoration: none;
+.nav > a, .links > a, #footer > section {
   color: #808080;
 }
 
-.footer > a {
-  text-decoration: none;
-  color: #808080;
+footer, ul {
+    font-weight: bold;
 }
